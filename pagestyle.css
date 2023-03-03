@@ -1,0 +1,8 @@
+@font-face{
+    font-family:Myfont;
+    src:url("Ziti.ttf");
+}
+body{
+    text-align: center;
+    background-image: url(https://s1.ax1x.com/2023/03/03/ppkBLuj.jpg);
+}
