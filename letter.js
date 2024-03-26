@@ -3,7 +3,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<
 var textWrapper = document.querySelector('.ml14 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
+anime.timeline({loop: false})
   .add({
     targets: '.ml11 .line',
     scaleY: [0,1],
@@ -31,7 +31,7 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
-anime.timeline({loop: true})
+anime.timeline({loop: false})
   .add({
     targets: '.ml14 .line',
     scaleX: [0,1],
