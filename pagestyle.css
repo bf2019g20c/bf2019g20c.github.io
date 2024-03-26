@@ -7,6 +7,14 @@ body{
     background-image: url(https://krseoul.imgtbl.com/i/2024/03/24/65ffd81dde7df.jpg);
     background-position: center;
 }
+.letters{
+    color: black;
+    transition: color 0.5s;
+}
+.letters:hover{
+    color: aquamarine;
+    transition: color 0.5s;
+}
 a{
     color:black;
 }
