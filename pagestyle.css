@@ -10,11 +10,12 @@ body{
 }
 .letters{
     color: black;
-    transition: color 0.5s;
+    transition: all 0.5s;
 }
 .letters:hover{
-    color: aquamarine;
-    transition: color 0.5s;
+    color: rgb(127, 232, 255);
+    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.544);
+    transition: all 0.5s;
 }
 a{
     color:black;
